@@ -70,7 +70,7 @@ export default function Home() {
       <div id="about" className="fade-in h-screen bg-[#edd947] flex flex-row items-center justify-center">
         <div className="relative w-1/3 h-[80vh] flex items-center justify-center">
           <div className="absolute w-[40%] h-[60%] rounded-lg border-8 border-red-500 transform rotate-[-15deg] left-[20%] top-[10%]">
-            <img src="/me_rowing.jpg" alt="Image 1" className="w-full h-full object-cover"/>
+            <img src="/me_rowing.png" alt="Image 1" className="w-full h-full object-cover"/>
           </div>
           <div className="absolute w-[40%] h-[60%] rounded-lg border-8 border-red-500 transform rotate-[15deg] left-[50%] top-[35%]">
             <img src="/me_rome.png" alt="Image 2" className="w-full h-full object-cover"/>

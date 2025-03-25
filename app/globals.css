@@ -37,6 +37,6 @@ h1 {
   font-family: var(--font-fredoka);
 }
 
-p {
+p, a {
   font-family: var(--font-varela-round);
 }

@@ -16,7 +16,9 @@ export default function Home() {
           </p>
           <div className="flex flex-row p-2 items-center absolute bottom-5">
             <p className="text-[#1d7151] text-7xl font-extrabold">&rarr;</p>
-            <p className="text-[#1d7151] text-xl ml-5">Contact Me</p>
+            <a href="mailto:your-email@example.com?subject=Contact%20Form&body=Hello%2C%20I%20would%20like%20to%20get%20in%20touch." className="hover:underline text-[#1d7151] text-2xl ml-5">
+              Contact Me
+            </a>
           </div>
         </div>
       </div>

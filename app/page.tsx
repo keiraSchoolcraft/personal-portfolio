@@ -158,6 +158,42 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Personal Projects */}
+      <div id="projects" className="fade-in visible h-screen bg-[#f2eddb] flex items-center justify-center flex-col">
+        <h1 className="text-7xl font-bold text-[#1d7151]">
+          Personal Projects
+        </h1>
+        <div className="flex flex-row h-1/2 justify-between w-[80%] gap-5 mt-10 text-white">
+          <div className="flex flex-1 flex-col bg-[#2b46bd] rounded-xl h-full w-auto justify-center items-center">
+            <img 
+              src="/coming_soon.png" 
+              alt="coming_soon" 
+              className="max-w-[70%] max-h-[70%] object-cover rounded-full p-5"
+            />
+            <h1 className="font-bold text-xl">Project Title #1</h1>
+            <p className="text-lg text-center">This project doesn't quite exist yet. Coming soon!</p>
+          </div>
+          <div className="flex flex-1 flex-col bg-[#2b46bd] rounded-xl h-full w-auto justify-center items-center">
+            <img 
+              src="/coming_soon.png" 
+              alt="coming_soon2" 
+              className="max-w-[70%] max-h-[70%] object-cover rounded-full p-5"
+            />
+            <h1 className="font-bold text-xl">Project Title #2</h1>
+            <p className="text-lg text-center">This project doesn't quite exist yet. Coming soon!</p>
+          </div>
+          <div className="flex flex-1 flex-col bg-[#2b46bd] rounded-xl h-full w-auto justify-center items-center">
+            <img 
+              src="/coming_soon.png" 
+              alt="coming_soon3" 
+              className="max-w-[70%] max-h-[70%] object-cover rounded-full p-5"
+            />
+            <h1 className="font-bold text-xl">Project Title #3</h1>
+            <p className="text-lg text-center">This project doesn't quite exist yet. Coming soon!</p>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }

@@ -33,6 +33,7 @@ export default function Home() {
       sections.forEach((section) => {
         observer.unobserve(section);
       });
+      observer.disconnect();
     };
   }, []);
 
@@ -94,6 +95,69 @@ export default function Home() {
           </p>
         </div>
       </div>
+
+      {/* Experience/Education */}
+      <div id="education" className="fade-in h-screen bg-[#1d7151] flex items-center justify-center text-white flex-row">
+        <div className="w-[40%] h-full p-2 flex flex-col justify-between items-start relative">
+          <h1 className="text-7xl font-bold mt-5 ml-5">Experience & Education</h1>
+          <p className="text-9xl text-[#f2eddb] text-center absolute bottom-[10%] ml-5">&rarr;</p>
+        </div>
+        <div className="w-[60%] flex justify-center items-center h-full">
+          <div className="bg-white flex flex-col rounded-xl w-[80%] h-[80%] p-2 text-[#2b46bd]">
+            <div className="flex flex-1 flex-col">
+              <h1 className="font-semibold text-xl">Worcester Polytechnic Institute - Computer Science Bachelors</h1>
+              <p className="font-semibold text-lg">2022-2026</p>
+              <p className="font-semibold text-md">
+                  Obtaining a Bachelor's Degree in Computer Science and a minor in Robotics Engineering. Dean's List honor every semester. 
+              </p>
+              <p className="font-semibold text-md">
+                Relevant Coursework: Algorithms, Software Engineering, Webware, Artificial Intelligence, Mobile & Ubiquitous Computing.
+              </p>
+            </div>
+            <div className="flex flex-1 flex-col">
+              <h1 className="font-semibold text-xl">Lockheed Martin - Software Engineering Intern</h1>
+              <p className="font-semibold text-lg">Summer 2023</p>
+              <p className="font-semibold text-md">
+                  Worked on a display system using Java and JavaFX. Tasked with creating and changing UI elements and fixing algorithmic bugs.
+              </p>
+              <p className="font-semibold text-md">
+                Skills Used: Git, Jira, Agile, Scrum, JavaFX, Java.
+              </p>
+            </div>
+            <div className="flex flex-1 flex-col">
+              <h1 className="font-semibold text-xl">Lockheed Martin - Software Engineering Intern</h1>
+              <p className="font-semibold text-lg">Summer 2024</p>
+              <p className="font-semibold text-md">
+                  Worked on system services team to maintain, update, and improve system software. Tasked with automating testing, deployment, and fixing server bugs.
+              </p>
+              <p className="font-semibold text-md">
+                Skills Used: Git, Jira, Agile, Scrum, Linux, Bash, XML, Python, Ansible, Jenkins.
+              </p>
+            </div>
+            <div className="flex flex-1 flex-col">
+              <h1 className="font-semibold text-xl">Worcester Polytechnic Institute - AI/ML Masters</h1>
+              <p className="font-semibold text-lg">2025-2026</p>
+              <p className="font-semibold text-md">
+                  Obtaining a Master's Degree in Artificial Intelligence and Machine Learning as a BS/MS program. 
+              </p>
+              <p className="font-semibold text-md">
+                Relevant Coursework: Artificial Intelligence, Machine Learning, AI Ethics & Policy.
+              </p>
+            </div>
+            <div className="flex flex-1 flex-col">
+              <h1 className="font-semibold text-xl">Lockheed Martin - Software Engineering Intern</h1>
+              <p className="font-semibold text-lg">Summer 2025</p>
+              <p className="font-semibold text-md">
+                  Coming soon!
+              </p>
+              <p className="font-semibold text-md">
+                Skills Used: Coming soon!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }

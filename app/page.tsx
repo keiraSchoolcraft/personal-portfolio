@@ -26,13 +26,13 @@ export default function Home() {
           </div>
           <div className='w-full h-full flex-grow lg:w-1/2 p-2 flex flex-col justify-center'>
             <h1 style={{ fontFamily: '"Playwrite DK Loopet", cursive' }} 
-              className='text-green-800 text-3xl lg:text-7xl font-extrabold '>Hello, I'm Keira!</h1>
+              className='text-green-800 text-3xl lg:text-6xl font-extrabold '>Hello, I'm Keira!</h1>
             <div className='p-2'>
-              <p style={cascadiaCodeStyle} className='text-gray-900 text-sm font-extralight mt-2 lg:mt-5 lg:text-3xl'>I am an aspiring software developer currently working towards my bachelor's in Computer Science 
+              <p style={cascadiaCodeStyle} className='text-gray-900 text-sm font-extralight mt-2 lg:mt-5 lg:text-2xl'>I am an aspiring software developer currently working towards my bachelor's in Computer Science 
                 and my Master's in Artificial Intelligence at Worcester Polytechnic Institute.
               </p>
               <br></br>
-              <p style={cascadiaCodeStyle} className='text-gray-900 text-sm font-extralight lg:mt-2 lg:text-3xl'>
+              <p style={cascadiaCodeStyle} className='text-gray-900 text-sm font-extralight lg:mt-2 lg:text-2xl'>
                 I have a passion for frontend development, web development, AI/ML, and software that has a real impact.
                 I'm always up for a challenge, and I'm always excited to learn more!
               </p>  

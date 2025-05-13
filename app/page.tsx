@@ -1,5 +1,6 @@
 'use client';
 import './globals.css';
+import Banner from '@/components/Banner';
 
 export default function Home() {
 
@@ -13,9 +14,7 @@ export default function Home() {
 
   return (
     <div className='h-screen flex flex-col'>
-      <div className='bg-[#15662B]'>
-        <p className='text-white text-2xl'>Banner placeholder (won't look like this just for visualization purposes!)</p>
-      </div>
+      <Banner/>
       <div className="bg-white flex-grow flex items-center justify-center">
         <div className="border-4 border-[#15662B] h-[80vh] w-[80vw] flex items-center justify-center flex-col lg:flex-row p-2">
           <div className="w-full overflow-hidden h-[60vh] lg:h-full lg:w-auto">
@@ -34,7 +33,7 @@ export default function Home() {
               </p>
               <br></br>
               <p style={cascadiaCodeStyle} className='text-gray-900 text-sm font-extralight lg:mt-2 lg:text-3xl'>
-                I have a passion for frontend development, AI/ML, and software that has a real impact.
+                I have a passion for frontend development, web development, AI/ML, and software that has a real impact.
                 I'm always up for a challenge, and I'm always excited to learn more!
               </p>  
             </div>

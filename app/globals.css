@@ -1,5 +1,6 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@tailwind utilities;
+
 
 
 :root {
@@ -24,6 +25,16 @@
     --font-geist-sans: 'Geist', sans-serif;
     --font-geist-mono: 'Geist Mono', monospace;
     --font-fredoka: 'Fredoka', sans-serif;
+  }
+}
+
+@layer base {
+  html {
+    font-family: system-ui, sans-serif;
+  }
+
+  .font-playwrite {
+    font-family: "Playwrite DK Loopet", cursive;
   }
 }
 
